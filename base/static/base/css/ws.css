@@ -1,0 +1,3330 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto:300,300i,400,400i,500,700,900');
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?9t24vy');
+    src: url('fonts/icomoon.eot?9t24vy#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?9t24vy') format('truetype'),
+    url('fonts/icomoon.woff?9t24vy') format('woff'),
+    url('fonts/icomoon.svg?9t24vy#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-map:before {
+    content: "\e025";
+}
+
+.icon-envelope:before {
+    content: "\e028";
+}
+
+.icon-lightbulb:before {
+    content: "\e030";
+}
+
+.icon-tools:before {
+    content: "\e033";
+}
+
+.icon-chat:before {
+    content: "\e049";
+}
+
+.icon-facebook:before {
+    content: "\e05d";
+}
+
+.icon-linkedin:before {
+    content: "\e062";
+}
+
+.icon-facebook-official:before {
+    content: "\e901";
+}
+
+.icon-instagram:before {
+    content: "\e900";
+}
+
+.icon-bubbles:before {
+    content: "\e96c";
+}
+
+.icon-clipboard:before {
+    content: "\e9b8";
+}
+
+@media screen and (max-width: 1380px) and (min-width: 1310px) {
+    body {
+        background-color: #F9F9F9;
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+    }
+
+    header {
+        width: 100%;
+        height: 220px;
+        background-color: #243284;
+    }
+
+    .ours {
+        width: 100%;
+        height: 30px;
+        text-align: center;
+    }
+
+    #logo {
+        font-family: 'Raleway', sans-serif;
+        width: 100%;
+        height: 110px;
+        font-size: 18px;
+        text-align: center;
+        background-color: none;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 40px;
+        color: white;
+    }
+
+    .name {
+        width: 400px;
+        height: 80px;
+        margin-right: auto;
+        margin-left: auto;
+        border: 1px solid white;
+        text-align: right;
+    }
+
+    #nav {
+        background-color: none;
+        width: 100%;
+        height: 50px;
+    }
+
+    #nav_wrapper {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        position: relative;
+        min-width: 200px;
+    }
+
+    #nav ul li {
+        display: inline-block;
+        list-style-type: none;
+    }
+
+    #nav ul li a:hover {
+        background-color: none;
+        border-bottom: 2px solid white;
+        transition: 1s;
+    }
+
+    #nav ul li a, visited {
+        color: white;
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+        font-size: 11px;
+    }
+
+    #nav ul li:hover ul {
+        display: block;
+    }
+
+    #nav ul ul {
+        display: none;
+        position: absolute;
+        background-color: none;
+        border-top: 0;
+    }
+
+    #nav ul ul li {
+        display: block;
+        text-align: left;
+    }
+
+    .slider {
+        width: 85%;
+        height: 450px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    #work {
+        width: 70%;
+        height: 250px;
+        background-color: none;
+        text-align: center;
+        padding-top: 20px;
+        font-size: 17px;
+    }
+
+    .client {
+        width: 100%;
+        height: 150px;
+        background-color: none;
+        text-align: -webkit-center;
+    }
+
+    .client p {
+        text-align: center;
+        background-color: #F9F9F9;
+        color: black;
+        width: 50%;
+        height: 100px;
+        margin-left: 25%;
+        font-size: 14px;
+        margin-top: 25px;
+    }
+
+    .gall {
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        background-color: none;
+    }
+
+    .gall1, .gall2, .gall3, .gall4 {
+        max-width: 300px;
+        overflow: hidden;
+        height: 200px;
+        display: inline-block;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 10px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .gall1 a, .gall2 a, .gall3 a, .gall4 a {
+        text-decoration: none;
+    }
+
+    .gall1 p, .gall2 p, .gall3 p, .gall4 p {
+        display: none;
+    }
+
+    .gall1:hover p, .gall2:hover p, .gall3:hover p, .gall4:hover p {
+        display: block;
+        margin-top: -150px;
+        text-align: center;
+        color: black;
+        font-size: 17px;
+        -webkit-transition: all 500ms ease;
+        -moz-transition: all 500ms ease;
+        -ms-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+
+    .gall1:hover img, .gall2:hover img, .gall3:hover img, .gall4:hover img {
+        opacity: 0.5;
+        -webkit-transition: all 500ms ease;
+        -moz-transition: all 500ms ease;
+        -ms-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+
+    .gall img {
+        height: 200px;
+    }
+
+    .info {
+        width: 100%;
+        height: 400px;
+        padding-top: 100px;
+        background-color: none;
+        color: black;
+        text-align: center;
+    }
+
+    .copy {
+        width: 100%;
+        height: 20px;
+        background-color: #243284;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+    }
+
+    .about {
+        width: 270px;
+        height: 350px;
+        background-color: none;
+        display: inline-block;
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-top: 25px;
+        position: top;
+        vertical-align: bottom;
+        color: black;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+    }
+
+    .gallery {
+        width: 100%;
+        height: 50px;
+        text-align: center;
+    }
+
+    .zprava {
+        border: none;
+        font-size: 12px;
+        margin-left: 30%;
+    }
+
+    .form {
+        width: 100%;
+        background-color: none;
+    }
+
+    input {
+        width: 30%;
+        height: 20px;
+        background-color: #243284;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #243284;
+        padding: 5px;
+        color: white;
+    }
+
+    textarea {
+        background-color: #243284;
+        border: 1px solid #243284;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 75%;
+        height: 200px;
+        color: white;
+    }
+
+    button {
+        background-color: #243284;
+        border: 1px solid #243284;
+        padding: 5px;
+        color: grey;
+    }
+
+    .cont a {
+        text-decoration: none;
+        padding: 15px;
+        background-color: #243284;
+        color: white;
+    }
+
+    i {
+        color: black;
+    }
+
+    .about a {
+        list-style-type: none;
+        text-decoration: none;
+    }
+
+    .about img {
+        color: white;
+
+    }
+
+    .icon-envelope:before {
+        content: "\e028";
+    }
+
+    .spolehlivost {
+        width: 100%;
+        height: 150px;
+        margin-left: 0px;
+        background-color: none;
+        margin-top: 20px;
+        text-align: center;
+        float: left;
+    }
+
+    .spolehlivost span {
+        font-size: 35px;
+        color: black;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 380px) and (min-width: 300px) {
+    body {
+        background-color: #F9F9F9;
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+        height: 220px;
+        background-color: #243284;
+    }
+
+    #logo {
+        font-family: 'Raleway', sans-serif;
+        width: 100%;
+        height: 80px;
+        font-size: 12px;
+        text-align: center;
+        background-color: none;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 40px;
+        color: white;
+    }
+
+    .name {
+        width: 380px;
+        height: 60px;
+        margin-right: auto;
+        margin-left: auto;
+        border: 3px solid white;
+    }
+
+    .slider {
+        width: 85%;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    #work {
+        width: 60%;
+        height: 50px;
+        background-color: none;
+        text-align: center;
+        font-size: 17px;
+        padding-top: 20px;
+    }
+
+    .ours {
+        width: 100%;
+        height: 30px;
+        text-align: center;
+    }
+
+    .gallery {
+        width: 100%;
+        height: 50px;
+        text-align: center;
+    }
+
+    .spolehlivost {
+        width: 50%;
+        height: 150px;
+        margin-left: 0px;
+        background-color: none;
+        margin-top: 20px;
+        text-align: center;
+        float: left;
+    }
+
+    .spolehlivost span {
+        font-size: 35px;
+        color: black;
+        margin-left: 0px;
+    }
+
+    #nav {
+        background-color: none;
+        width: 100%;
+        height: 50px;
+    }
+
+    #nav_wrapper {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        position: relative;
+        min-width: 200px;
+    }
+
+    #nav ul li {
+        display: inline-block;
+        list-style-type: none;
+    }
+
+    #nav ul li a:hover {
+        background-color: none;
+        border-bottom: 2px solid white;
+    }
+
+    #nav ul li a, visited {
+        color: white;
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+        font-size: 11px;
+    }
+
+    #nav ul li a:hover {
+        background-color: none;
+        border-bottom: none;
+    }
+
+    .gall {
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        background-color: none;
+    }
+
+    .gall1, .gall2, .gall3, .gall4 {
+        max-width: 300px;
+        overflow: hidden;
+        height: 40%;
+        display: inline-block;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 10px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .gall1 a, .gall2 a, .gall3 a, .gall4 a {
+        text-decoration: none;
+    }
+
+    .gall1 p, .gall2 p, .gall3 p, .gall4 p {
+        display: none;
+    }
+
+    .gall1:hover p, .gall2:hover p, .gall3:hover p, .gall4:hover p {
+        display: block;
+        margin-top: -115px;
+        text-align: center;
+        color: black;
+        font-size: 17px;
+    }
+
+    .gall img {
+        height: 100%;
+        margin-left: 0px;
+        background-color: none;
+    }
+
+    .client {
+        width: 100%;
+        height: 250px;
+        background-color: none;
+        text-align: -webkit-center;
+    }
+
+    .client p {
+        background-color: #F9F9F9;
+        color: black;
+        width: 200px;
+        height: 200px;
+        font-size: 14px;
+        margin-top: 25px;
+    }
+
+    .info {
+        width: 100%;
+        height: 1200px;
+        background-color: none;
+        color: black;
+        padding-top: 45px;
+        text-align: center;
+    }
+
+    .copy {
+        width: 100%;
+        height: 20px;
+        background-color: #243284;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+    }
+
+    .about {
+        width: 250px;
+        height: 350px;
+        background-color: none;
+        margin-left: 4%;
+        margin-right: 4%;
+        display: inline-block;
+        margin-top: 25px;
+        position: top;
+        vertical-align: bottom;
+        color: black;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+    }
+
+    .cont a {
+        text-decoration: none;
+        padding: 15px;
+        background-color: #243284;
+
+        color: white;
+    }
+
+    i {
+        color: black;
+    }
+
+    .about a {
+        list-style-type: none;
+        text-decoration: none;
+    }
+
+    .zprava {
+        border: none;
+        font-size: 12px;
+        margin-left: 70px;
+    }
+
+    .formular {
+        width: 100%;
+        height: 550px;
+        background-color: none;
+    }
+
+    input {
+        width: 50%;
+        height: 20px;
+        background-color: #243284;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #243284;
+        padding: 5px;
+        color: white;
+    }
+
+    textarea {
+        background-color: #243284;
+        border: 1px solid #243284;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 75%;
+        height: 200px;
+        color: white;
+    }
+
+    button {
+        background-color: #243284;
+        border: 1px solid #243284;
+        padding: 5px;
+        color: grey;
+    }
+}
+
+@media screen and (max-width: 1309px) and (min-width: 1200px) {
+    body {
+        background-color: #F9F9F9;
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+    }
+
+    header {
+        width: 100%;
+        height: 220px;
+        background-color: #243284;
+    }
+
+    #logo {
+        font-family: 'Raleway', sans-serif;
+        width: 100%;
+        height: 110px;
+        font-size: 18px;
+        text-align: center;
+        background-color: none;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 40px;
+        color: white;
+    }
+
+    .name {
+        width: 380px;
+        height: 90px;
+        margin-right: auto;
+        margin-left: auto;
+        border: 3px solid white;
+    }
+
+    #nav {
+        background-color: none;
+        width: 100%;
+        height: 50px;
+    }
+
+    #nav_wrapper {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        position: relative;
+        min-width: 200px;
+    }
+
+    #nav ul li {
+        display: inline-block;
+        list-style-type: none;
+    }
+
+    #nav ul li a:hover {
+        background-color: none;
+        border-bottom: 2px solid white;
+    }
+
+    #nav ul li a, visited {
+        color: white;
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+        font-size: 11px;
+    }
+
+    #nav ul li:hover ul {
+        display: block;
+    }
+
+    #nav ul ul {
+        display: none;
+        position: absolute;
+        background-color: none;
+        border-top: 0;
+    }
+
+    #nav ul ul li {
+        display: block;
+        text-align: left;
+    }
+
+    .slider {
+        width: 85%;
+        height: 450px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .gall1, .gall2, .gall3, .gall4 {
+        max-width: 300px;
+        overflow: hidden;
+        height: 200px;
+        display: inline-block;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 10px;
+        background-color: none;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .spolehlivost {
+        width: 240px;
+        height: 150px;
+        display: inline-block;
+        margin-left: 60px;
+        background-color: none;
+        text-align: center;
+        float: left;
+        margin-top: 25px;
+        font-size: 13px;
+    }
+
+    .spolehlivost span {
+        font-size: 35px;
+        color: black;
+    }
+
+    #work {
+        width: 80%;
+        height: 200px;
+        background-color: none;
+        text-align: center;
+    }
+
+    .gallery {
+        width: 100%;
+        height: 50px;
+        text-align: center;
+    }
+
+    .ours {
+        width: 100%;
+        height: 30px;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .gall {
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        background-color: none;
+    }
+
+    .gall1 a, .gall2 a, .gall3 a, .gall4 a {
+        text-decoration: none;
+    }
+
+    .gall1 p, .gall2 p, .gall3 p, .gall4 p {
+        display: none;
+    }
+
+    .gall1:hover p, .gall2:hover p, .gall3:hover p, .gall4:hover p {
+        display: block;
+        margin-top: -150px;
+        text-align: center;
+        color: black;
+        font-size: 17px;
+        -webkit-transition: all 500ms ease;
+        -moz-transition: all 500ms ease;
+        -ms-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+
+    .gall1:hover img, .gall2:hover img, .gall3:hover img, .gall4:hover img {
+        opacity: 0.5;
+        -webkit-transition: all 500ms ease;
+        -moz-transition: all 500ms ease;
+        -ms-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+
+    .gall img {
+        height: 200px;
+    }
+
+    .info {
+        width: 100%;
+        height: 400px;
+        background-color: none;
+        color: black;
+        text-align: center;
+    }
+
+    .copy {
+        width: 100%;
+        height: 20px;
+        background-color: #243284;
+        text-align: center;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .about {
+        width: 240px;
+        height: 350px;
+        background-color: none;
+        display: inline-block;
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-top: 25px;
+        position: top;
+        vertical-align: bottom;
+        color: black;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+    }
+
+    .cont a {
+        text-decoration: none;
+        padding: 15px;
+        background-color: #243284;
+        color: white;
+    }
+
+    .client {
+        width: 100%;
+        height: 150px;
+        background-color: none;
+        text-align: -webkit-center;
+    }
+
+    .client p {
+        background-color: #F9F9F9;
+        color: black;
+        width: 640px;
+        height: 100px;
+        font-size: 14px;
+        margin-top: 25px;
+    }
+
+    i {
+        color: black;
+    }
+
+    .about a {
+        list-style-type: none;
+        text-decoration: none;
+    }
+
+    .about img {
+        color: white;
+
+    }
+
+    .zprava {
+        border: none;
+        font-size: 12px;
+        margin-left: 30%;
+    }
+
+    .formular {
+        width: 100%;
+        height: 550px;
+        background-color: none;
+    }
+
+    input {
+        width: 30%;
+        height: 20px;
+        background-color: #243284;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #243284;
+        padding: 5px;
+        color: white;
+    }
+
+    textarea {
+        background-color: #243284;
+        border: 1px solid #243284;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 75%;
+        height: 200px;
+        color: white;
+    }
+
+    button {
+        background-color: #243284;
+        border: 1px solid #243284;
+        padding: 5px;
+        color: grey;
+    }
+}
+
+@media screen and (max-width: 999px) and (min-width: 690px) {
+    body {
+        background-color: #F9F9F9;
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+        height: 180px;
+        background-color: #243284;
+    }
+
+    #logo {
+        font-family: 'Raleway', sans-serif;
+        width: 100%;
+        height: 80px;
+        font-size: 12px;
+        text-align: center;
+        background-color: none;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+        color: white;
+    }
+
+    .name {
+        width: 380px;
+        height: 80px;
+        margin-right: auto;
+        margin-left: auto;
+        border: 3px solid white;
+    }
+
+    #work {
+        width: 100%;
+        height: 360px;
+        background-color: none;
+    }
+
+    .ours {
+        width: 100%;
+        height: 30px;
+        text-align: center;
+    }
+
+    .spolehlivost {
+        width: 40%;
+        height: 150px;
+        margin-left: 50px;
+        background-color: none;
+        margin-top: 20px;
+        text-align: center;
+        float: left;
+    }
+
+    .spolehlivost span {
+        font-size: 40px;
+        color: black;
+        margin-left: 0px;
+    }
+
+    #nav {
+        background-color: none;
+        width: 100%;
+        height: 50px;
+        margin-top: 20px;
+    }
+
+    #nav_wrapper {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        position: relative;
+        min-width: 200px;
+    }
+
+    #nav ul li {
+        display: inline-block;
+        list-style-type: none;
+    }
+
+    #nav ul li a:hover {
+        background-color: none;
+        border-bottom: 2px solid white;
+    }
+
+    #nav ul li a, visited {
+        color: white;
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+        font-size: 11px;
+    }
+
+    #nav ul li a:hover {
+        background-color: none;
+        border-bottom: none;
+    }
+
+    .gall {
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        background-color: none;
+    }
+
+    .gall1, .gall2, .gall3, .gall4 {
+        max-width: 300px;
+        overflow: hidden;
+        height: 200px;
+        display: inline-block;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 10px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .gall1 a, .gall2 a, .gall3 a, .gall4 a {
+        text-decoration: none;
+    }
+
+    .gall1 p, .gall2 p, .gall3 p, .gall4 p {
+        display: none;
+    }
+
+    .gall1:hover p, .gall2:hover p, .gall3:hover p, .gall4:hover p {
+        display: block;
+        margin-top: -115px;
+        text-align: center;
+        color: black;
+        font-size: 17px;
+    }
+
+    .gallery {
+        width: 100%;
+        height: 50px;
+        text-align: center;
+    }
+
+    .gall img {
+        height: 100%;
+        margin-left: 0px;
+        background-color: none;
+    }
+
+    .client {
+        width: 100%;
+        height: 150px;
+        background-color: none;
+        text-align: -webkit-center;
+    }
+
+    .client p {
+        background-color: #F9F9F9;
+        color: black;
+        width: 60%;
+        height: 100px;
+        font-size: 14px;
+        margin-top: 25px;
+    }
+
+    .info {
+        width: 100%;
+        height: 400px;
+        background-color: none;
+        color: black;
+        text-align: center;
+    }
+
+    .copy {
+        width: 100%;
+        height: 20px;
+        background-color: #243284;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+    }
+
+    .about {
+        width: 25%;
+        height: 350px;
+        background-color: none;
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-top: 25px;
+        display: inline-block;
+        position: top;
+        vertical-align: bottom;
+        color: black;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+    }
+
+    .cont a {
+        text-decoration: none;
+        padding: 15px;
+        background-color: #243284;
+
+        color: white;
+    }
+
+    i {
+        color: black;
+    }
+
+    .slider {
+        width: 85%;
+        height: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .about a {
+        list-style-type: none;
+        text-decoration: none;
+    }
+
+    .zprava {
+        border: none;
+        font-size: 12px;
+        margin-left: 30%;
+    }
+
+    .formular {
+        width: 100%;
+        height: 550px;
+        background-color: none;
+    }
+
+    input {
+        width: 30%;
+        height: 20px;
+        background-color: #243284;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #243284;
+        padding: 5px;
+        color: white;
+    }
+
+    textarea {
+        background-color: #243284;
+        border: 1px solid #243284;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 75%;
+        height: 200px;
+        color: white;
+    }
+
+    button {
+        background-color: #243284;
+        border: 1px solid #243284;
+        padding: 5px;
+        color: grey;
+    }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 1000px) {
+    body {
+        background-color: #F9F9F9;
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+    }
+
+    header {
+        width: 100%;
+        height: 220px;
+        background-color: #243284;
+    }
+
+    #logo {
+        font-family: 'Raleway', sans-serif;
+        width: 100%;
+        height: 110px;
+        font-size: 18px;
+        text-align: center;
+        background-color: none;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 40px;
+        color: white;
+    }
+
+    .name {
+        width: 380px;
+        height: 90px;
+        margin-right: auto;
+        margin-left: auto;
+        border: 3px solid white;
+    }
+
+    #nav {
+        background-color: none;
+        width: 100%;
+        height: 50px;
+    }
+
+    #nav_wrapper {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        position: relative;
+        min-width: 200px;
+    }
+
+    #nav ul li {
+        display: inline-block;
+        list-style-type: none;
+    }
+
+    #nav ul li a:hover {
+        background-color: none;
+        border-bottom: 2px solid white;
+    }
+
+    #nav ul li a, visited {
+        color: white;
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+        font-size: 11px;
+    }
+
+    #nav ul li:hover ul {
+        display: block;
+    }
+
+    #nav ul ul {
+        display: none;
+        position: absolute;
+        background-color: none;
+        border-top: 0;
+    }
+
+    #nav ul ul li {
+        display: block;
+        text-align: left;
+    }
+
+    .slider {
+        width: 85%;
+        height: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    #work {
+        width: 100%;
+        height: 200px;
+        background-color: none;
+        text-align: center;
+    }
+
+    .ours {
+        width: 100%;
+        height: 30px;
+        text-align: center;
+    }
+
+    .spolehlivost {
+        width: 200px;
+        height: 100px;
+        margin-left: 50px;
+        float: left;
+        margin-top: 50px;
+        font-size: 13px;
+        background-color: none;
+        text-align: center;
+    }
+
+    .gallery {
+        width: 100%;
+        height: 50px;
+        text-align: center;
+    }
+
+    .spolehlivost span {
+        font-size: 35px;
+        color: black;
+    }
+
+    .client {
+        width: 100%;
+        height: 150px;
+        background-color: none;
+        text-align: -webkit-center;
+    }
+
+    .client p {
+        background-color: #F9F9F9;
+        color: black;
+        width: 640px;
+        height: 100px;
+        font-size: 14px;
+        margin-top: 25px;
+    }
+
+    .gall {
+        width: 100%;
+        height: 100%;
+        background-color: none;
+        text-align: center;
+    }
+
+    .gall1, .gall2, .gall3, .gall4 {
+        max-width: 300px;
+        overflow: hidden;
+        height: 200px;
+        display: inline-block;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 10px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .gall1 a, .gall2 a, .gall3 a, .gall4 a {
+        text-decoration: none;
+    }
+
+    .gall1 p, .gall2 p, .gall3 p, .gall4 p {
+        display: none;
+    }
+
+    .gall1:hover p, .gall2:hover p, .gall3:hover p, .gall4:hover p {
+        display: block;
+        margin-top: -150px;
+        text-align: center;
+        color: black;
+        font-size: 17px;
+        -webkit-transition: all 500ms ease;
+        -moz-transition: all 500ms ease;
+        -ms-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+
+    .gall1:hover img, .gall2:hover img, .gall3:hover img, .gall4:hover img {
+        opacity: 0.5;
+        -webkit-transition: all 500ms ease;
+        -moz-transition: all 500ms ease;
+        -ms-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+
+    .gall img {
+        height: 200px;
+    }
+
+    .info {
+        width: 100%;
+        height: 400px;
+        background-color: none;
+        color: black;
+        text-align: center;
+    }
+
+    .copy {
+        width: 100%;
+        height: 20px;
+        background-color: #243284;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+    }
+
+    .about {
+        width: 240px;
+        height: 350px;
+        background-color: none;
+        display: inline-block;
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-top: 25px;
+        position: top;
+        vertical-align: bottom;
+        color: black;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+    }
+
+    .cont a {
+        text-decoration: none;
+        padding: 15px;
+        background-color: #243284;
+        color: white;
+    }
+
+    i {
+        color: black;
+    }
+
+    .about a {
+        list-style-type: none;
+        text-decoration: none;
+    }
+
+    .about img {
+        color: white;
+
+    }
+
+    .zprava {
+        border: none;
+        font-size: 12px;
+        margin-left: 30%;
+    }
+
+    .formular {
+        width: 100%;
+        height: 550px;
+        background-color: none;
+    }
+
+    input {
+        width: 30%;
+        height: 20px;
+        background-color: #243284;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #243284;
+        padding: 5px;
+        color: white;
+    }
+
+    textarea {
+        background-color: #243284;
+        border: 1px solid #243284;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 75%;
+        height: 200px;
+        color: white;
+    }
+
+    button {
+        background-color: #243284;
+        border: 1px solid #243284;
+        padding: 5px;
+        color: grey;
+    }
+}
+
+@media screen and (max-width: 1480px) and (min-width: 1430px) {
+    body {
+        background-color: #F9F9F9;
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+    }
+
+    header {
+        width: 100%;
+        height: 220px;
+        background-color: #243284;
+    }
+
+    #logo {
+        font-family: 'Raleway', sans-serif;
+        width: 100%;
+        height: 110px;
+        font-size: 18px;
+        text-align: center;
+        background-color: none;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 40px;
+        color: white;
+    }
+
+    .name {
+        width: 380px;
+        height: 90px;
+        margin-right: auto;
+        margin-left: auto;
+        border: 3px solid white;
+    }
+
+    #nav {
+        background-color: none;
+        width: 100%;
+        height: 50px;
+    }
+
+    #nav_wrapper {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        position: relative;
+        min-width: 200px;
+    }
+
+    #nav ul li {
+        display: inline-block;
+        list-style-type: none;
+    }
+
+    #nav ul li a:hover {
+        background-color: none;
+        border-bottom: 2px solid white;
+    }
+
+    #nav ul li a, visited {
+        color: white;
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+        font-size: 13px;
+    }
+
+    #nav ul li:hover ul {
+        display: block;
+    }
+
+    #nav ul ul {
+        display: none;
+        position: absolute;
+        background-color: none;
+        border-top: 0;
+    }
+
+    #nav ul ul li {
+        display: block;
+        text-align: left;
+    }
+
+    .slider {
+        width: 85%;
+        height: 450px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    #work {
+        width: 100%;
+        height: 250px;
+        background-color: none;
+        text-align: center;
+    }
+
+    .ours {
+        width: 100%;
+        height: 30px;
+        text-align: center;
+    }
+
+    .gallery {
+        width: 100%;
+        height: 50px;
+        text-align: center;
+    }
+
+    .spolehlivost {
+        width: 250px;
+        height: 150px;
+        margin-left: 80px;
+        float: left;
+        margin-top: 50px;
+        font-size: 13px;
+        background-color: none;
+        text-align: center;
+    }
+
+    .spolehlivost span {
+        font-size: 35px;
+        color: black;
+    }
+
+    .client {
+        width: 100%;
+        height: 150px;
+        background-color: none;
+        text-align: -webkit-center;
+    }
+
+    .client p {
+        background-color: #F9F9F9;
+        color: black;
+        width: 640px;
+        height: 100px;
+        font-size: 14px;
+        margin-top: 25px;
+    }
+
+    .gall {
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        background-color: none;
+    }
+
+    .gall1, .gall2, .gall3, .gall4 {
+        max-width: 300px;
+        overflow: hidden;
+        height: 200px;
+        display: inline-block;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 10px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .gall1 a, .gall2 a, .gall3 a, .gall4 a {
+        text-decoration: none;
+    }
+
+    .gall1 p, .gall2 p, .gall3 p, .gall4 p {
+        display: none;
+    }
+
+    .gall1:hover p, .gall2:hover p, .gall3:hover p, .gall4:hover p {
+        display: block;
+        margin-top: -150px;
+        text-align: center;
+        color: black;
+        font-size: 17px;
+        -webkit-transition: all 500ms ease;
+        -moz-transition: all 500ms ease;
+        -ms-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+
+    .gall1:hover img, .gall2:hover img, .gall3:hover img, .gall4:hover img {
+        opacity: 0.5;
+        -webkit-transition: all 500ms ease;
+        -moz-transition: all 500ms ease;
+        -ms-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+
+    .gall img {
+        height: 200px;
+    }
+
+    .info {
+        width: 100%;
+        height: 400px;
+        background-color: none;
+        color: black;
+        text-align: center;
+    }
+
+    .copy {
+        width: 100%;
+        height: 20px;
+        background-color: #243284;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+    }
+
+    .about {
+        width: 270px;
+        height: 350px;
+        background-color: none;
+        display: inline-block;
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-top: 25px;
+        position: top;
+        vertical-align: bottom;
+        color: black;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+    }
+
+    .cont a {
+        text-decoration: none;
+        padding: 15px;
+        background-color: #243284;
+        color: white;
+    }
+
+    i {
+        color: black;
+    }
+
+    .about a {
+        list-style-type: none;
+        text-decoration: none;
+    }
+
+    .about img {
+        color: white;
+
+    }
+
+    .zprava {
+        border: none;
+        font-size: 12px;
+        margin-left: 160px;
+    }
+
+    .formular {
+        width: 100%;
+        height: 550px;
+        background-color: none;
+    }
+
+    input {
+        width: 20%;
+        height: 20px;
+        background-color: #243284;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #243284;
+        padding: 5px;
+        color: white;
+    }
+
+    textarea {
+        background-color: #243284;
+        border: 1px solid #243284;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 50%;
+        height: 200px;
+        color: white;
+    }
+
+    button {
+        background-color: #243284;
+        border: 1px solid #243284;
+        padding: 5px;
+        color: grey;
+    }
+}
+
+@media screen and (max-width: 567px) and (min-width: 380px) {
+    body {
+        background-color: #F9F9F9;
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+        height: 180px;
+        background-color: #243284;
+    }
+
+    #logo {
+        font-family: 'Raleway', sans-serif;
+        width: 100%;
+        height: 80px;
+        font-size: 12px;
+        text-align: center;
+        background-color: none;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+        color: white;
+    }
+
+    .name {
+        width: 340px;
+        height: 80px;
+        margin-right: auto;
+        margin-left: auto;
+        border: 3px solid white;
+    }
+
+    #work {
+        width: 100%;
+        height: 360px;
+        background-color: none;
+        text-align: center;
+    }
+
+    .slider {
+        width: 85%;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .spolehlivost {
+        width: 50%;
+        height: 150px;
+        margin-left: 0px;
+        background-color: none;
+        margin-top: 20px;
+        text-align: center;
+        float: left;
+    }
+
+    .ours {
+        width: 100%;
+        height: 30px;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .spolehlivost span {
+        font-size: 35px;
+        color: black;
+        margin-left: 0px;
+    }
+
+    #nav {
+        background-color: none;
+        width: 100%;
+        height: 50px;
+        margin-top: 20px;
+    }
+
+    #nav_wrapper {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        position: relative;
+        min-width: 200px;
+    }
+
+    #nav ul li {
+        display: inline-block;
+        list-style-type: none;
+    }
+
+    #nav ul li a:hover {
+        background-color: none;
+        border-bottom: 2px solid white;
+    }
+
+    #nav ul li a, visited {
+        color: white;
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+        font-size: 11px;
+    }
+
+    #nav ul li a:hover {
+        background-color: none;
+        border-bottom: none;
+    }
+
+    .gall {
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        background-color: none;
+    }
+
+    .gallery {
+        width: 100%;
+        height: 50px;
+        text-align: center;
+    }
+
+    .gall1, .gall2, .gall3, .gall4 {
+        max-width: 300px;
+        overflow: hidden;
+        height: 150px;
+        display: inline-block;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 10px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .gall1 a, .gall2 a, .gall3 a, .gall4 a {
+        text-decoration: none;
+    }
+
+    .gall1 p, .gall2 p, .gall3 p, .gall4 p {
+        display: none;
+    }
+
+    .gall1:hover p, .gall2:hover p, .gall3:hover p, .gall4:hover p {
+        display: block;
+        margin-top: -115px;
+        text-align: center;
+        color: black;
+        font-size: 17px;
+    }
+
+    .gall img {
+        height: 100%;
+        margin-left: 0px;
+        background-color: none;
+    }
+
+    .client {
+        width: 100%;
+        height: 225px;
+        background-color: none;
+        text-align: -webkit-center;
+    }
+
+    .client p {
+        background-color: #F9F9F9;
+        color: black;
+        width: 320px;
+        height: 200px;
+        font-size: 14px;
+        margin-top: 25px;
+    }
+
+    .info {
+        width: 100%;
+        height: 1200px;
+        background-color: none;
+        color: black;
+        text-align: center;
+    }
+
+    .copy {
+        width: 100%;
+        height: 20px;
+        background-color: #243284;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+    }
+
+    .about {
+        width: 250px;
+        height: 350px;
+        background-color: none;
+        margin-left: 4%;
+        margin-right: 4%;
+        display: inline-block;
+        margin-top: 15px;
+        position: top;
+        vertical-align: bottom;
+        color: black;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+    }
+
+    .cont a {
+        text-decoration: none;
+        padding: 15px;
+        background-color: #243284;
+
+        color: white;
+    }
+
+    i {
+        color: black;
+    }
+
+    .about a {
+        list-style-type: none;
+        text-decoration: none;
+    }
+
+    .zprava {
+        border: none;
+        font-size: 12px;
+        margin-left: 30%;
+    }
+
+    .formular {
+        width: 100%;
+        height: 550px;
+        background-color: none;
+    }
+
+    input {
+        width: 70%;
+        height: 20px;
+        background-color: #243284;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #243284;
+        padding: 5px;
+        color: white;
+    }
+
+    textarea {
+        background-color: #243284;
+        border: 1px solid #243284;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 75%;
+        height: 200px;
+        color: white;
+    }
+
+    button {
+        background-color: #243284;
+        border: 1px solid #243284;
+        padding: 5px;
+        color: grey;
+    }
+}
+
+@media screen and (max-width: 629px) and (min-width: 568px) {
+    body {
+        background-color: #F9F9F9;
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+        height: 180px;
+        background-color: #243284;
+    }
+
+    #logo {
+        font-family: 'Raleway', sans-serif;
+        width: 100%;
+        height: 80px;
+        font-size: 12px;
+        text-align: center;
+        background-color: none;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 40px;
+        color: white;
+    }
+
+    .name {
+        width: 380px;
+        height: 60px;
+        margin-right: auto;
+        margin-left: auto;
+        border: 3px solid white;
+    }
+
+    #work {
+        width: 100%;
+        height: 360px;
+        background-color: none;
+    }
+
+    .spolehlivost {
+        width: 35%;
+        height: 150px;
+        margin-left: 10%;
+        background-color: none;
+        margin-top: 20px;
+        text-align: center;
+        float: left;
+    }
+
+    .ours {
+        width: 100%;
+        height: 30px;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .spolehlivost span {
+        font-size: 35px;
+        color: black;
+        margin-left: 0px;
+    }
+
+    #nav {
+        background-color: none;
+        width: 100%;
+        height: 50px;
+    }
+
+    #nav_wrapper {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        position: relative;
+        min-width: 200px;
+    }
+
+    #nav ul li {
+        display: inline-block;
+        list-style-type: none;
+    }
+
+    #nav ul li a:hover {
+        background-color: none;
+        border-bottom: 2px solid white;
+    }
+
+    #nav ul li a, visited {
+        color: white;
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+        font-size: 11px;
+    }
+
+    #nav ul li a:hover {
+        background-color: none;
+        border-bottom: none;
+    }
+
+    .gall {
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        background-color: none;
+    }
+
+    .gallery {
+        width: 100%;
+        height: 50px;
+        text-align: center;
+    }
+
+    .gall1, .gall2, .gall3, .gall4 {
+        max-width: 300px;
+        overflow: hidden;
+        height: 150px;
+        display: inline-block;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 10px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .gall1 a, .gall2 a, .gall3 a, .gall4 a {
+        text-decoration: none;
+    }
+
+    .gall1 p, .gall2 p, .gall3 p, .gall4 p {
+        display: none;
+    }
+
+    .gall1:hover p, .gall2:hover p, .gall3:hover p, .gall4:hover p {
+        display: block;
+        margin-top: -115px;
+        text-align: center;
+        color: black;
+        font-size: 17px;
+    }
+
+    .gall img {
+        height: 100%;
+        margin-left: 0px;
+        background-color: none;
+    }
+
+    .client {
+        width: 100%;
+        height: 225px;
+        background-color: none;
+        text-align: -webkit-center;
+    }
+
+    .client p {
+        background-color: #F9F9F9;
+        color: black;
+        width: 320px;
+        height: 200px;
+        font-size: 14px;
+        margin-top: 25px;
+    }
+
+    .info {
+        width: 100%;
+        height: 1200px;
+        background-color: none;
+        color: black;
+        text-align: center;
+    }
+
+    .copy {
+        width: 100%;
+        height: 20px;
+        background-color: #243284;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+    }
+
+    .about {
+        width: 250px;
+        height: 350px;
+        background-color: none;
+        margin-left: 4%;
+        margin-right: 4%;
+        display: inline-block;
+        margin-top: 15px;
+        position: top;
+        vertical-align: bottom;
+        color: black;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+    }
+
+    .cont a {
+        text-decoration: none;
+        padding: 15px;
+        background-color: #243284;
+
+        color: white;
+    }
+
+    i {
+        color: black;
+    }
+
+    .about a {
+        list-style-type: none;
+
+        text-decoration: none;
+    }
+
+    .zprava {
+        border: none;
+        font-size: 12px;
+        margin-left: 120px;
+    }
+
+    .formular {
+        width: 100%;
+        height: 550px;
+        background-color: none;
+    }
+
+    input {
+        width: 70%;
+        height: 20px;
+        background-color: #243284;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #243284;
+        padding: 5px;
+        color: white;
+    }
+
+    textarea {
+        background-color: #243284;
+        border: 1px solid #243284;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 75%;
+        height: 200px;
+        color: white;
+    }
+
+    button {
+        background-color: #243284;
+        border: 1px solid #243284;
+        padding: 5px;
+        color: grey;
+    }
+}
+
+@media screen and (max-width: 379px) and (min-width: 360px) {
+    body {
+        background-color: #F9F9F9;
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+        height: 220px;
+        background-color: #243284;
+    }
+
+    #logo {
+        font-family: 'Raleway', sans-serif;
+        width: 100%;
+        height: 80px;
+        font-size: 12px;
+        text-align: center;
+        background-color: none;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 40px;
+        color: white;
+    }
+
+    .name {
+        width: 300px;
+        height: 80px;
+        margin-right: auto;
+        margin-left: auto;
+        border: 3px solid white;
+    }
+
+    #work {
+        width: 100%;
+        height: 360px;
+        background-color: none;
+    }
+
+    .spolehlivost {
+        width: 35%;
+        height: 150px;
+        margin-left: 10%;
+        background-color: none;
+        margin-top: 20px;
+        text-align: center;
+        float: left;
+    }
+
+    .ours {
+        width: 100%;
+        height: 30px;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .spolehlivost span {
+        font-size: 35px;
+        color: black;
+        margin-left: 0px;
+    }
+
+    #nav {
+        background-color: none;
+        width: 100%;
+        height: 50px;
+        margin-top: 30px;
+    }
+
+    #nav_wrapper {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        position: relative;
+        min-width: 200px;
+    }
+
+    #nav ul li {
+        display: inline-block;
+        list-style-type: none;
+    }
+
+    #nav ul li a:hover {
+        background-color: none;
+    }
+
+    #nav ul li a, visited {
+        color: white;
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+        font-size: 11px;
+    }
+
+    #nav ul li a:hover {
+        background-color: none;
+        border-bottom: none;
+    }
+
+    .gall {
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        background-color: none;
+    }
+
+    .slider {
+        width: 85%;
+        height: 200px;
+        margin-left: 6%;
+        text-align: center;
+    }
+
+    .gallery {
+        width: 100%;
+        height: 50px;
+        text-align: center;
+    }
+
+    .gall1, .gall2, .gall3, .gall4 {
+        max-width: 300px;
+        overflow: hidden;
+        height: 150px;
+        display: inline-block;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 10px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .gall1 a, .gall2 a, .gall3 a, .gall4 a {
+        text-decoration: none;
+    }
+
+    .gall1 p, .gall2 p, .gall3 p, .gall4 p {
+        display: none;
+    }
+
+    .gall1:hover p, .gall2:hover p, .gall3:hover p, .gall4:hover p {
+        display: block;
+        margin-top: -115px;
+        text-align: center;
+        color: black;
+        font-size: 17px;
+    }
+
+    .gall img {
+        height: 100%;
+        margin-left: 0px;
+        background-color: none;
+    }
+
+    .client {
+        width: 100%;
+        height: 225px;
+        background-color: none;
+        text-align: -webkit-center;
+    }
+
+    .client p {
+        background-color: #F9F9F9;
+        color: black;
+        width: 320px;
+        height: 200px;
+        font-size: 14px;
+        margin-top: 25px;
+    }
+
+    .info {
+        width: 100%;
+        height: 1200px;
+        background-color: none;
+        color: black;
+        text-align: center;
+    }
+
+    .copy {
+        width: 100%;
+        height: 20px;
+        background-color: #243284;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+    }
+
+    .about {
+        width: 280px;
+        height: 350px;
+        background-color: none;
+        margin-left: 4%;
+        margin-right: 4%;
+        display: inline-block;
+        margin-top: 15px;
+        position: top;
+        vertical-align: bottom;
+        color: black;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+    }
+
+    .cont a {
+        text-decoration: none;
+        padding: 15px;
+        background-color: #243284;
+
+        color: white;
+    }
+
+    i {
+        color: black;
+    }
+
+    .about a {
+        list-style-type: none;
+
+        text-decoration: none;
+    }
+
+    .zprava {
+        border: none;
+        font-size: 12px;
+        margin-left: 80px;
+    }
+
+    .formular {
+        width: 100%;
+        height: 550px;
+        background-color: none;
+    }
+
+    input {
+        width: 60%;
+        height: 20px;
+        background-color: #243284;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #243284;
+        padding: 5px;
+        color: white;
+    }
+
+    textarea {
+        background-color: #243284;
+        border: 1px solid #243284;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 75%;
+        height: 200px;
+    }
+
+    button {
+        background-color: #243284;
+        border: 1px solid #243284;
+        padding: 5px;
+        color: grey;
+    }
+}
+
+@media screen and (max-width: 689px) and (min-width: 630px) {
+    body {
+        background-color: #F9F9F9;
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+        height: 180px;
+        background-color: #243284;
+    }
+
+    #logo {
+        font-family: 'Raleway', sans-serif;
+        width: 100%;
+        height: 80px;
+        font-size: 12px;
+        text-align: center;
+        background-color: none;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 40px;
+        color: white;
+    }
+
+    .name {
+        width: 380px;
+        height: 60px;
+        margin-right: auto;
+        margin-left: auto;
+        border: 3px solid white;
+    }
+
+    #work {
+        width: 100%;
+        height: 360px;
+        background-color: none;
+        text-align: center;
+    }
+
+    .spolehlivost {
+        width: 35%;
+        height: 150px;
+        margin-left: 10%;
+        background-color: none;
+        margin-top: 20px;
+        text-align: center;
+        float: left;
+    }
+
+    .ours {
+        width: 100%;
+        height: 30px;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .spolehlivost span {
+        font-size: 35px;
+        color: black;
+        margin-left: 0px;
+    }
+
+    #nav {
+        background-color: none;
+        width: 100%;
+        height: 50px;
+    }
+
+    #nav_wrapper {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        position: relative;
+        min-width: 200px;
+    }
+
+    #nav ul li {
+        display: inline-block;
+        list-style-type: none;
+    }
+
+    #nav ul li a:hover {
+        background-color: none;
+        border-bottom: 2px solid white;
+    }
+
+    #nav ul li a, visited {
+        color: white;
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+        font-size: 11px;
+    }
+
+    #nav ul li a:hover {
+        background-color: none;
+        border-bottom: none;
+    }
+
+    .gall {
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        background-color: none;
+    }
+
+    .gallery {
+        width: 100%;
+        height: 50px;
+        text-align: center;
+    }
+
+    .slider {
+        width: 85%;
+        height: 200px;
+        margin-left: 6%;
+        text-align: center;
+    }
+
+    .gall1, .gall2, .gall3, .gall4 {
+        max-width: 300px;
+        overflow: hidden;
+        height: 150px;
+        display: inline-block;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 10px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .gall1 a, .gall2 a, .gall3 a, .gall4 a {
+        text-decoration: none;
+    }
+
+    .gall1 p, .gall2 p, .gall3 p, .gall4 p {
+        display: none;
+    }
+
+    .gall1:hover p, .gall2:hover p, .gall3:hover p, .gall4:hover p {
+        display: block;
+        margin-top: -115px;
+        text-align: center;
+        color: black;
+        font-size: 17px;
+    }
+
+    .gall img {
+        height: 100%;
+        margin-left: 0px;
+        background-color: none;
+    }
+
+    .client {
+        width: 100%;
+        height: 225px;
+        background-color: none;
+        text-align: -webkit-center;
+    }
+
+    .client p {
+        background-color: #F9F9F9;
+        color: black;
+        width: 450px;
+        height: 200px;
+        font-size: 14px;
+        margin-top: 25px;
+    }
+
+    .info {
+        width: 100%;
+        height: 1200px;
+        background-color: none;
+        color: black;
+        text-align: center;
+    }
+
+    .copy {
+        width: 100%;
+        height: 20px;
+        background-color: #243284;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+    }
+
+    .about {
+        width: 300px;
+        height: 350px;
+        background-color: none;
+        margin-left: 4%;
+        margin-right: 4%;
+        display: inline-block;
+        margin-top: 15px;
+        position: top;
+        vertical-align: bottom;
+        color: black;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+    }
+
+    .cont a {
+        text-decoration: none;
+        padding: 15px;
+        background-color: #243284;
+
+        color: white;
+    }
+
+    i {
+        color: black;
+    }
+
+    .zprava {
+        border: none;
+        font-size: 12px;
+        margin-left: 170px;
+    }
+
+    .formular {
+        width: 100%;
+        height: 550px;
+        background-color: none;
+    }
+
+    input {
+        width: 60%;
+        height: 20px;
+        background-color: #243284;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #243284;
+        padding: 5px;
+        color: white;
+    }
+
+    textarea {
+        background-color: #243284;
+        border: 1px solid #243284;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 75%;
+        height: 200px;
+        color: white;
+        padding: 5px;
+    }
+
+    button {
+        background-color: #243284;
+        border: 1px solid #243284;
+        padding: 5px;
+        color: grey;
+    }
+
+    .about a {
+        list-style-type: none;
+
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 4500px) and (min-width: 1481px) {
+    body {
+        background-color: #F9F9F9;
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+    }
+
+    header {
+        width: 100%;
+        height: 220px;
+        background-color: #243284;
+    }
+
+    .ours {
+        width: 100%;
+        height: 30px;
+        text-align: center;
+    }
+
+    #logo {
+        font-family: 'Raleway', sans-serif;
+        width: 100%;
+        height: 110px;
+        font-size: 18px;
+        text-align: center;
+        background-color: none;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 40px;
+        color: white;
+    }
+
+    .name {
+        width: 380px;
+        height: 90px;
+        margin-right: auto;
+        margin-left: auto;
+        border: 3px solid white;
+    }
+
+    #nav {
+        background-color: none;
+        width: 100%;
+        height: 50px;
+    }
+
+    #nav_wrapper {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        position: relative;
+        min-width: 200px;
+    }
+
+    #nav ul li {
+        display: inline-block;
+        list-style-type: none;
+    }
+
+    #nav ul li a:hover {
+        background-color: none;
+        border-bottom: 2px solid white;
+    }
+
+    #nav ul li a, visited {
+        color: white;
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+        font-size: 11px;
+    }
+
+    #nav ul li:hover ul {
+        display: block;
+    }
+
+    #nav ul ul {
+        display: none;
+        position: absolute;
+        background-color: none;
+        border-top: 0;
+    }
+
+    #nav ul ul li {
+        display: block;
+        text-align: left;
+    }
+
+    .slider {
+        width: 85%;
+        height: 450px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    #work {
+        width: 1400px;
+        height: 250px;
+        background-color: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .spolehlivost {
+        width: 250px;
+        height: 150px;
+        margin-left: 70px;
+        float: left;
+        margin-top: 50px;
+        font-size: 13px;
+        background-color: none;
+        text-align: center;
+    }
+
+    .spolehlivost span {
+        font-size: 35px;
+        color: black;
+    }
+
+    .client {
+        width: 100%;
+        height: 150px;
+        background-color: none;
+        text-align: -webkit-center;
+    }
+
+    .client p {
+        background-color: #F9F9F9;
+        color: black;
+        width: 50%;
+        height: 100px;
+        font-size: 14px;
+        margin-top: 25px;
+    }
+
+    .gall {
+        text-align: center;
+        width: 1400px;
+        height: 100%;
+        background-color: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .gall1, .gall2, .gall3, .gall4 {
+        max-width: 300px;
+        overflow: hidden;
+        height: 200px;
+        display: inline-block;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 10px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .gall1 a, .gall2 a, .gall3 a, .gall4 a {
+        text-decoration: none;
+    }
+
+    .gall1 p, .gall2 p, .gall3 p, .gall4 p {
+        display: none;
+    }
+
+    .gall1:hover p, .gall2:hover p, .gall3:hover p, .gall4:hover p {
+        display: block;
+        margin-top: -150px;
+        text-align: center;
+        color: black;
+        font-size: 17px;
+        -webkit-transition: all 500ms ease;
+        -moz-transition: all 500ms ease;
+        -ms-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+
+    .gall1:hover img, .gall2:hover img, .gall3:hover img, .gall4:hover img {
+        opacity: 0.5;
+        -webkit-transition: all 500ms ease;
+        -moz-transition: all 500ms ease;
+        -ms-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+
+    .gall img {
+        height: 200px;
+    }
+
+    .info {
+        width: 1400px;
+        height: 400px;
+        background-color: none;
+        color: black;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+
+    .copy {
+        width: 100%;
+        height: 20px;
+        background-color: #243284;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+    }
+
+    .about {
+        width: 270px;
+        height: 350px;
+        background-color: none;
+        display: inline-block;
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-top: 25px;
+        position: top;
+        vertical-align: bottom;
+        color: black;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+    }
+
+    .gallery {
+        width: 100%;
+        height: 50px;
+        text-align: center;
+    }
+
+    .zprava {
+        border: none;
+        font-size: 12px;
+        margin-left: 30%;
+    }
+
+    .formular {
+        width: 100%;
+        height: 550px;
+        background-color: none;
+    }
+
+    input {
+        width: 30%;
+        height: 20px;
+        background-color: #243284;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #243284;
+        padding: 5px;
+        color: white;
+    }
+
+    textarea {
+        background-color: #243284;
+        border: 1px solid #243284;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 75%;
+        height: 200px;
+        color: white;
+    }
+
+    button {
+        background-color: #243284;
+        border: 1px solid #243284;
+        padding: 5px;
+        color: grey;
+    }
+
+    .cont a {
+        text-decoration: none;
+        padding: 15px;
+        background-color: #243284;
+        color: white;
+    }
+
+    i {
+        color: black;
+    }
+
+    .about a {
+        list-style-type: none;
+        text-decoration: none;
+    }
+
+    .about img {
+        color: white;
+
+    }
+
+    .icon-envelope:before {
+        content: "\e028";
+    }
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 10; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    width: auto;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+    position: absolute;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+}
+
+/* Add Animation */
+/*.modal-content, #caption {*/
+/*    -webkit-animation-name: zoom;*/
+/*    -webkit-animation-duration: 0.6s;*/
+/*    animation-name: zoom;*/
+/*    animation-duration: 0.6s;*/
+/*}*/
+
+
+.modal-content img {
+    position: relative;
+    object-fit: contain;
+    max-height: 90%;
+    max-width: 1000px;
+    display: block;
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+/* The Close Button */
+.close_img {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.close_img:hover,
+.close_img:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
+}
+
+.back-img-btn, .next-img-btn {
+    top: 50%;
+    transform: translate(0px, -50%);
+    position: absolute;
+    font-size: 100px;
+    z-index: 50;
+    text-align: left;
+    display: block;
+    cursor: pointer;
+}
+
+.back-img-btn:hover, .next-img-btn:hover {
+    opacity: 0.5;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.back-img-btn {
+    left: 5px;
+}
+
+.next-img-btn {
+    right: 5px;
+}

@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+    <html>
+    <div class="gall">
+        {% for gal in galeries %}
+            <a href="{% url 'galeri_view' %}{{ gal.photo_type.type_photo }}">
+                <div class="gall1"
+                     style="background-color:none;font-size:20px;text-align:center;color:black;padding-top:0px;height:200px;">
+                    <div>{{ gal.photo_type.name }}</div>
+                    <img  alt="{{ gal.photo_type.name }}" src="{{ gal.photo.url }}" style="width:80%;height:70%;margin-top:5%;">
+                </div>
+            </a>
+        {% endfor %}
+        <div style="clear: both"></div>
+    </div>
+    </html>
+{% endblock %}

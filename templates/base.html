@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+    <title>Truhlářství Tégl</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="In-Progres">
+    <meta name="keywords"
+          content="PB nábytek, stolař, stolařství, truhář, truhlářství, stůl, schody, kuchyň, skříň, postel, Olomouc, truhlář, dřevo, na míru, Olomouc, Velká Bystřice, nábytek olomouc, truhlář olomouc, olomouc truhlar, olomouc truhlář">
+    <meta name="description"
+          content="Zabýváme se výrobou nábytku, oken, dveří, přístřešků, zahradních pergol a renovacemi dřevěných doplňků.">
+    <link rel="stylesheet" type="text/css" href="{% static "base/css/ws.css" %}">
+    <link rel="stylesheet" type="text/css" href="{% static "base/fonts/style.css" %}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&ampsubset=latin-ext" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="{% static "base/js/jquery.cycle.all.js" %}"></script>
+
+
+</head>
+<body>
+<header>
+    <div id="logo">
+        <div class="name">
+            <img src="{% static "base/ik.png" %}" style="float:left;margin-left: 10px;margin-top:3px;">
+            <h1 style="margin-top:25px;margin-right:10px;">Truhlářství Tégl</h1>
+        </div>
+    </div>
+    <div id="nav">
+        <div id="nav_wrapper">
+            <ul>
+                <li><a href="{% url 'home_page_view' %}">ÚVOD</a>
+                </li>
+                <li><a href="{% url 'home_galeri_view' %}">GALERIE</a>
+                </li>
+                <li><a href="{% url 'contact_view' %}">KONTAKT</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+{% block content %}
+{% endblock %}
+<footer class="info">
+    <div class="about">
+        <p>
+        <h3>KONTAKT</h3><br>
+        <b>Kontaktní osoba:</b> Roman Tégl<br>
+        <br>
+        <b>Sídlo firmy:</b> Pňovice 18<br>
+        <br>
+        <b>E-mail:</b> truhlarstvi@tegl.cz<br>
+        <br>
+        <b>IČO:</b> 18967469<br>
+        <br>
+        <b>Mobil:</b> +420 603 549 561<br></p>
+    </div>
+    <div class="about">
+        <p>
+        <h3>ADRESA</h3><br>
+        <b>Sídlo firmy:</b> Pňovice - 18<br><br>
+        <b>PSČ:</b> 784 01<br><br>
+        <h3>Otevírací doba</h3>
+        <b>Po-Pá:</b> 6:30 - 15:30<br><br>
+        <b>So-Ne:</b> Zavřeno<br></p>
+    </div>
+    <div class="about">
+        <p>
+        <h3>DÁLE NÁS NAJDETE</h3><br>
+        &nbsp&nbsp&nbsp&nbsp&nbsp
+        <a href="https://www.instagram.com/truhlarstvitegl/"><img src="{% static "base/inst1.png" %}"></a>
+        <br><br><br></p>
+        <div class="cont"></div>
+    </div>
+</footer>
+<div class="copy">
+    <b>© Truhlářství Tégl | 2017</b>
+</div>
+<div id="myModal" class="modal">
+    <span class="close_img">&times;</span>
+    <div class="modal-content">
+        <div id="caption"></div>
+        <div>
+            <img id="modal_img_id">
+            <span id="back_img_btn_id" class="back-img-btn">&#10092;</span>
+            <span id="next_img_btn_id" class="next-img-btn">&#10093;</span>
+        </div>
+    </div>
+</div>
+<script>
+    var max_img_id;
+    let img_gal = document.getElementsByClassName("gall1");
+    if (img_gal != null) {
+        let index = 0;
+        for (let i = 0; i < img_gal.length; i++) {
+            var img = img_gal[i].getElementsByTagName("img");
+            if (img[0] != null) {
+                img[0].id = "img_" + index;
+                max_img_id = index;
+                index++;
+            }
+        }
+    }
+
+    function changeToAnotherImg(next_id) {
+        document.getElementById("myModal").style.display = "none";
+        detailImg(next_id);
+    }
+
+    function detailImg(img_id) {
+        let img = document.getElementById(img_id);
+        let modalImg = document.getElementById("modal_img_id");
+        let captionText = document.getElementById("caption");
+        let modal = document.getElementById("myModal");
+        let back_img_btn = document.getElementById("back_img_btn_id");
+        let next_img_btn = document.getElementById("next_img_btn_id");
+
+        modal.style.display = "block";
+        modalImg.src = img.src;
+        captionText.innerHTML = img.alt;
+
+        back_img_btn.onclick = function () {
+            let back_img_id = parseInt(img_id.split("_")[1]) - 1;
+            if (back_img_id == -1) {
+                back_img_id = max_img_id;
+            }
+            changeToAnotherImg("img_" + back_img_id);
+        }
+
+        next_img_btn.onclick = function () {
+            let next_img_id = parseInt(img_id.split("_")[1]);
+            if (next_img_id == max_img_id) {
+                next_img_id = 0;
+            } else {
+                next_img_id += 1;
+            }
+            changeToAnotherImg("img_" + next_img_id);
+        }
+    }
+
+    // Get the modal
+
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+
+
+    let modal = document.getElementById("myModal");
+    // Get the <span> element that closes the modal
+    let span = document.getElementsByClassName("close_img")[0];
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+
+
+</script>
+</body>
+</html>

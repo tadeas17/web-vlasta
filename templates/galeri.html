@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+    <html>
+    <div class="gall">
+        {% for photo in photos %}
+            <div class="gall1">
+                <img alt="{{ photo.name }}" src="{{ photo.photo.url }}"
+                     onclick="detailImg(this.id)">
+            </div>
+        {% endfor %}
+        <div style="clear: both"></div>
+    </div>
+    </html>
+{% endblock %}

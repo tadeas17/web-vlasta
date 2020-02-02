@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="66a2d0f1-5355-418d-b5f8-1ae57fe19d8f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="teglDb" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="teglDb" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="teglDb" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="teglDb" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="base_photo: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="teglDb" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="base_phototype: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Sks2YJCclyC92nczz7uKGdY8h8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="redshift&#10;sqlite" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\17tad\PycharmProjects\tegl\templates" />
+      <recent name="C:\Users\17tad\PycharmProjects\tegl\base\static\base" />
+      <recent name="C:\Users\17tad\PycharmProjects\tegl\base" />
+      <recent name="C:\Users\17tad\PycharmProjects\tegl" />
+      <recent name="C:\Users\17tad\PycharmProjects\tegl\static\js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\17tad\PycharmProjects\tegl\static" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Django server.tegl">
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tegl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tegl" type="Python.DjangoServer" factoryName="Django server">
+      <module name="tegl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="tegl.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.views" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="66a2d0f1-5355-418d-b5f8-1ae57fe19d8f" name="Default Changelist" comment="" />
+      <created>1572118721239</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572118721239</updated>
+      <workItem from="1572118757209" duration="599000" />
+      <workItem from="1572202826630" duration="9817000" />
+      <workItem from="1572346303698" duration="3219000" />
+      <workItem from="1572353905011" duration="1717000" />
+      <workItem from="1572509784848" duration="32000" />
+      <workItem from="1572545098049" duration="2164000" />
+      <workItem from="1572627460271" duration="3170000" />
+      <workItem from="1572705786042" duration="2221000" />
+      <workItem from="1572734829950" duration="143000" />
+      <workItem from="1572798109594" duration="718000" />
+      <workItem from="1572799826963" duration="1405000" />
+      <workItem from="1572869054259" duration="10020000" />
+      <workItem from="1573484933047" duration="125000" />
+      <workItem from="1574080869243" duration="1359000" />
+      <workItem from="1574168204184" duration="8000" />
+      <workItem from="1574201634150" duration="4287000" />
+      <workItem from="1574267562062" duration="1033000" />
+      <workItem from="1574771757940" duration="1545000" />
+      <workItem from="1575195792435" duration="225000" />
+      <workItem from="1578094395647" duration="3374000" />
+      <workItem from="1578138385252" duration="2826000" />
+      <workItem from="1578319050985" duration="7969000" />
+      <workItem from="1578409831066" duration="2165000" />
+      <workItem from="1578416685902" duration="4352000" />
+      <workItem from="1578914528831" duration="2630000" />
+      <workItem from="1578917413743" duration="741000" />
+      <workItem from="1578920835821" duration="7009000" />
+      <workItem from="1579007364459" duration="4385000" />
+      <workItem from="1580668723884" duration="238000" />
+      <workItem from="1580669110014" duration="88000" />
+      <workItem from="1580669208986" duration="29000" />
+      <workItem from="1580670440847" duration="3625000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="400" y="92" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580669196567">
+      <screen x="78" y="0" width="1458" height="864" />
+    </state>
+    <state x="400" y="92" key="#com.intellij.execution.impl.EditConfigurationsDialog/78.0.1458.864/-1920.0.1920.1040@78.0.1458.864" timestamp="1580669196567" />
+    <state x="-1280" y="249" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1580669139561">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1280" y="249" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/78.0.1458.864/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1580669139561" />
+    <state x="-1828" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1580672177598">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1828" y="92" width="1736" height="856" key="DiffContextDialog/78.0.1458.864/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1580672177598" />
+    <state x="-1828" y="92" width="1736" height="856" maximized="true" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1580672177598">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1828" y="92" width="1736" height="856" maximized="true" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/78.0.1458.864/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1580672177598" />
+    <state x="575" y="287" key="com.intellij.ide.util.TipDialog" timestamp="1580670531810">
+      <screen x="78" y="0" width="1458" height="864" />
+    </state>
+    <state x="575" y="287" key="com.intellij.ide.util.TipDialog/78.0.1458.864/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1580670531810" />
+    <state x="575" y="287" key="com.intellij.ide.util.TipDialog/78.0.1458.864/-1920.0.1920.1040@78.0.1458.864" timestamp="1580669209156" />
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1580671450574">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/78.0.1458.864/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1580671450574" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tegl/settings.py</url>
+          <line>88</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tegl/settings.py</url>
+          <line>77</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/tegl$views.coverage" NAME="views Coverage Results" MODIFIED="1572800686048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
+  </component>
+</project>

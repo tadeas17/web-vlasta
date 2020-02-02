@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% block content %}
+    <html>
+    <script type="text/javascript">
+        $(function () {
+            $('.slider').cycle();
+        })
+        $(function () {
+            $('.client').cycle();
+        })
+    </script>
+    <div class="client">
+        <p>
+            V&iacute;tejte na str&aacute;nk&aacute;ch Truhl&aacute;řstv&iacute; T&Eacute;GL.<br><br>Na&scaron;e firma se
+            zab&yacute;v&aacute;
+            v&yacute;robou a mont&aacute;ž&iacute; samonosn&yacute;ch i obkl&aacute;dan&yacute;ch schodů, dveř&iacute;,
+            podkrov&iacute; a interi&eacute;rů, ložnic, ob&yacute;vac&iacute;ch pokojů, kuchyn&iacute; či předs&iacute;n&iacute;
+            a selsk&eacute;ho n&aacute;bytku.<br><br>Cel&yacute; sortiment se vytv&aacute;ř&iacute; každ&eacute;mu z&aacute;kazn&iacute;kovi
+            dle jeho požadavků a představ..
+    </div>
+    <div class="client">
+        <p>Jako materi&aacute;l použ&iacute;v&aacute;me masiv, lamin&aacute;tovou i d&yacute;hovanou dřevotř&iacute;sku.<br><br>V
+            neposledn&iacute; řadě prod&aacute;v&aacute;me i řezivo, v&scaron;e dle aktu&aacute;ln&iacute;ch skladov&yacute;ch
+            z&aacute;sob.<br><br>Pro bliž&scaron;&iacute; informace volejte pros&iacute;m:<br><br>(+420) 603 549 561</p>
+    </div>
+    <div class="slider">
+        {% for photo in slider_photos %}
+            <img alt="{{ photo.name }}" src="{{ photo.photo.url }}" width="70%" height="90%"
+                 style="margin-left:15%; display: inline-block; object-fit: contain;">
+        {% endfor %}
+    </div>
+    <div class="gall">
+        {% for photo in photos %}
+            <div class="gall1">
+                {#            TODO: zobrazeni obrazku, zvetseni#}
+                <img alt="{{ photo.name }}" src="{{ photo.photo.url }}" onclick="detailImg(this.id)">
+            </div>
+        {% endfor %}
+        <div style="clear: both"></div>
+    </div>
+    </html>
+{% endblock %}
