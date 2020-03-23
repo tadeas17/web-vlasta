@@ -5,7 +5,7 @@
         {% for gal in galeries %}
             <a href="{% url 'galeri_view' %}{{ gal.photo_type.type_photo }}">
                 <div class="gall1">
-                    <div>{{ gal.photo_type.name }}</div>
+                    <div class="type-galeri-name">{{ gal.photo_type.name }}</div>
                     <img  alt="{{ gal.photo_type.name }}" src="{{ gal.photo.url }}">
                 </div>
             </a>
