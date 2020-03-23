@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66a2d0f1-5355-418d-b5f8-1ae57fe19d8f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bdfd22d4-bd1f-4107-af22-9a42ea365418.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/bdfd22d4-bd1f-4107-af22-9a42ea365418.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/static/base/css/ws.css" beforeDir="false" afterPath="$PROJECT_DIR$/base/static/base/css/ws.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/static/base/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/base/static/base/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/display_galeri.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/display_galeri.html" afterDir="false" />
-    </list>
+    <list default="true" id="66a2d0f1-5355-418d-b5f8-1ae57fe19d8f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -194,7 +186,7 @@
       <workItem from="1580670440847" duration="3625000" />
       <workItem from="1581781227069" duration="177000" />
       <workItem from="1584881731870" duration="1232000" />
-      <workItem from="1584918364109" duration="3192000" />
+      <workItem from="1584918364109" duration="3538000" />
     </task>
     <servers />
   </component>
