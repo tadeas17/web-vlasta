@@ -3255,7 +3255,6 @@
     max-height: 90%;
     max-width: 1000px;
     display: block;
-    width: 100%;
 }
 
 @-webkit-keyframes zoom {
